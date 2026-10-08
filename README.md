@@ -1,16 +1,54 @@
-# React + Vite
+# JobPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based job portal that helps users discover jobs, save opportunities, apply for positions, manage their profiles, and track applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Auth0 authentication
+- Job search and filtering
+- Location-based job search
+- Save and remove jobs
+- Job details and application flow
+- Application tracking
+- User profile management
+- Post new job opportunities
+- User dashboard
+- User-specific LocalStorage data
+- Responsive design
+- Modern dark SaaS-style UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- React Router
+- Auth0
+- HTML5
+- CSS3
+- Lucide React
+- LocalStorage
+- Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── Components/
+│   ├── Nav.jsx
+│   └── ProtectedRoute.jsx
+│
+├── Pages/
+│   ├── Home.jsx
+│   ├── Jobs.jsx
+│   ├── JobDetails.jsx
+│   ├── Apply.jsx
+│   ├── Applications.jsx
+│   ├── SavedJobs.jsx
+│   ├── Profile.jsx
+│   ├── PostJob.jsx
+│   └── Dashboard.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
