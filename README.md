@@ -52,6 +52,7 @@ src/
 ├── App.css
 ├── index.css
 └── main.jsx
+```
 
 ## Screenshots
 
@@ -72,3 +73,69 @@ src/
 
 ### Post a Job
 ![Post a Job](public/screenshots/PostAJob.png)
+
+## Authentication
+
+JobPulse uses Auth0 for user authentication.
+
+Protected features include:
+
+- Saved Jobs
+- Applications
+- Profile
+- Dashboard
+- Post Job
+- Apply
+
+User-specific application, profile, saved-job and posted-job data is maintained using LocalStorage.
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/spurthibojja/job-pulse.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd job-pulse
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Auth0
+
+Create a `.env` file in the project root:
+
+```env
+VITE_AUTH0_DOMAIN=YOUR_AUTH0_DOMAIN
+VITE_AUTH0_CLIENT_ID=YOUR_AUTH0_CLIENT_ID
+```
+
+### 5. Start the development server
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+
+- Backend integration
+- Real job listings API
+- Database integration
+- Resume upload and storage
+- Recruiter management
+- Advanced job recommendations
+- Deployment
+
+## Author
+
+**Spurthi Bojja**
+
+GitHub: https://github.com/spurthibojja
