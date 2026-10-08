@@ -52,3 +52,23 @@ src/
 ├── App.css
 ├── index.css
 └── main.jsx
+
+## Screenshots
+
+### Home
+![Home](public/screenshots/home.png)
+
+### Jobs
+![Jobs](public/screenshots/jobs.png)
+
+### Job Details
+![Job Details](public/screenshots/jobdetails.png)
+
+### Applications
+![Applications](public/screenshots/application.png)
+
+### Dashboard
+![Dashboard](public/screenshots/dashboard.png)
+
+### Post a Job
+![Post a Job](public/screenshots/PostAJob.png)
